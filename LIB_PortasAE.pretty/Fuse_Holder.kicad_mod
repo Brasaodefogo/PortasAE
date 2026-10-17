@@ -1,0 +1,97 @@
+(footprint "Fuse_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "F**"
+		(at -2 -11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06a20cf9-e3f3-4aa3-9f65-1b136b8fb876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Fuse_Holder"
+		(at -2 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b92a8648-36ad-4c4c-b1c9-fc0171bb716f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.botnroll.com/pt/fusiveis/6000-suporte-fus-vel-5x20mm-com-tampa-preto.html"
+		(at 7.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bd9c5f0-e810-4d79-8fb5-a582d952ce17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5*20mm"
+		(at 7.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96d96a4b-76b6-462e-a78e-1b46cda6ff93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.75 -4.85)
+		(end 22.75 4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d67bd696-281c-475d-b908-aeba9d5b94bb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98c3e485-a604-4703-863a-644a0056affb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06c0557c-25fc-4d83-af92-8432479018f0")
+	)
+	(pad "2" thru_hole circle
+		(at 21 0)
+		(size 2.3 2.3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a866b4c-facb-45a2-87ca-d75564caf0bd")
+	)
+	(embedded_fonts no)
+)
