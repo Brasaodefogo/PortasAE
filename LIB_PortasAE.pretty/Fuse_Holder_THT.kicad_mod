@@ -1,10 +1,10 @@
-(footprint "Fuse_Holder"
+(footprint "Fuse_Holder_THT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "F**"
-		(at -2 -11 0)
+		(at 10 -9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "06a20cf9-e3f3-4aa3-9f65-1b136b8fb876")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Fuse_Holder"
-		(at -2 -9.5 0)
+	(property "Value" "Fuse_Holder_THT"
+		(at 10 -8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b92a8648-36ad-4c4c-b1c9-fc0171bb716f")
@@ -66,7 +66,7 @@
 		(uuid "d67bd696-281c-475d-b908-aeba9d5b94bb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2 -8 0)
+		(at 10 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "98c3e485-a604-4703-863a-644a0056affb")

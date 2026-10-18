@@ -1,0 +1,110 @@
+(footprint "Buzzer_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Buzz**"
+		(at 3.5 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e94c5f26-e202-49a3-b032-c2022961e7fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Buzzer_THT"
+		(at 3.5 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a116a6d8-64c8-4045-be32-ede21114c2e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89dc2a84-7b0c-42a0-b0a2-2dfba486624e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "pitch 7.72 diam 6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17eea110-c5f1-4f7e-909a-5bd60ae64a02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.86 0)
+		(end 9.86 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "7b523ae8-1e27-4fef-a309-ad6891c2cbf0")
+	)
+	(fp_text user "+"
+		(at 1 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bb483395-8802-4b85-b323-368f49504a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.5 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74356735-7dd9-4f7d-abba-e3f7990f08de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33a560e9-b8d6-401c-8f1c-b022b512c449")
+	)
+	(pad "2" thru_hole circle
+		(at 7.72 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63bb17c6-ec91-4237-8f6e-203c14d4fbf0")
+	)
+	(embedded_fonts no)
+)

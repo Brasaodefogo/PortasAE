@@ -1,4 +1,4 @@
-(footprint "Rectifier_Bridge"
+(footprint "Rectifier_Bridge_THT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Rectifier_Bridge"
+	(property "Value" "Rectifier_Bridge_THT"
 		(at 5.715 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -77,8 +77,8 @@
 		(layer "F.CrtYd")
 		(uuid "f69ee63b-0103-438d-8fbe-0385fb06b704")
 	)
-	(fp_text user "*"
-		(at -4 0 0)
+	(fp_text user "Rect_Bridge"
+		(at 5 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6dfabf97-10c6-4429-8472-97c27bc394ed")
@@ -89,10 +89,11 @@
 			)
 		)
 	)
-	(fp_text user "*"
-		(at -4 0 0)
-		(layer "F.SilkS")
-		(uuid "9fbf1656-dfd3-4328-b745-28ca20114826")
+	(fp_text user "${REFERENCE}"
+		(at 5 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5f4a3cd-48e9-4d97-a026-abc22149d05c")
 		(effects
 			(font
 				(size 1 1)

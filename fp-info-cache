@@ -1,4 +1,4 @@
-26767405622653521
+26772782524632497
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70574,12 +70574,19 @@ Yellow 5381 Series LED
 2
 2
 LIB_PortasAE
-Fuse_Holder
+Buzzer_THT
 
 
 0
+2
+2
+LIB_PortasAE
+Fuse_Holder_THT
+
+
 0
-0
+2
+2
 LIB_PortasAE
 MODULE_ESP32-C3_SUPERMINI_TH
 
@@ -70588,12 +70595,26 @@ MODULE_ESP32-C3_SUPERMINI_TH
 16
 16
 LIB_PortasAE
-Rectifier_Bridge
+Rectifier_Bridge_THT
 
 VS-2KBP02 
 0
 4
 4
+LIB_PortasAE
+Screw_Terminal_01x02_THT
+
+
+0
+2
+2
+LIB_PortasAE
+Screw_Terminal_01x03_THT
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
