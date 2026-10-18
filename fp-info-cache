@@ -1,4 +1,4 @@
-26772782524632497
+26774575028730468
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70594,6 +70594,13 @@ MODULE_ESP32-C3_SUPERMINI_TH
 0
 16
 16
+LIB_PortasAE
+R_axiaxl_THT_pitch_6,8mm_hole_0,46
+
+
+0
+2
+2
 LIB_PortasAE
 Rectifier_Bridge_THT
 

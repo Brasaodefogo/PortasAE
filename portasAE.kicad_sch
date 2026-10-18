@@ -4649,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIB_PortasAE:Rectifier_Bridge"
+		(property "Footprint" "LIB_PortasAE:Rectifier_Bridge_THT"
 			(at 73.152 30.988 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "LIB_PortasAE:R_axiaxl_THT_pitch_6,8mm_hole_0,46"
 			(at 59.182 113.03 90)
 			(effects
 				(font
@@ -5707,7 +5707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "LIB_PortasAE:R_axiaxl_THT_pitch_6,8mm_hole_0,46"
 			(at 49.53 110.998 90)
 			(effects
 				(font

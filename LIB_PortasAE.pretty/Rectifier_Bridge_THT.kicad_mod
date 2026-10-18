@@ -78,7 +78,7 @@
 		(uuid "f69ee63b-0103-438d-8fbe-0385fb06b704")
 	)
 	(fp_text user "Rect_Bridge"
-		(at 5 -4 0)
+		(at 5.5 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6dfabf97-10c6-4429-8472-97c27bc394ed")
@@ -90,7 +90,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5 -2.5 0)
+		(at 5 -7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c5f4a3cd-48e9-4d97-a026-abc22149d05c")

@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "Buzz**"
-		(at 3.5 -10 0)
+	(property "Reference" "Buzzer**"
+		(at 4 -7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e94c5f26-e202-49a3-b032-c2022961e7fa")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Buzzer_THT"
-		(at 3.5 -8.5 0)
+		(at -8 -8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a116a6d8-64c8-4045-be32-ede21114c2e6")
@@ -79,7 +79,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.5 -7 0)
+		(at -8 -7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "74356735-7dd9-4f7d-abba-e3f7990f08de")
