@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -2.5 -3.1)
-		(end 7.5 4.5)
+		(start -1.75 -3.4)
+		(end 5.25 3.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -66,7 +66,7 @@
 		(uuid "d7e92929-5399-4809-ab22-6422025a775b")
 	)
 	(fp_text user "Front"
-		(at 0.5 -3.5 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "688b6a78-42f0-47d2-9779-c8094e233192")
@@ -99,7 +99,7 @@
 		(uuid "3bb90b57-a782-4553-9c98-2f08c8f8fa3b")
 	)
 	(pad "2" thru_hole circle
-		(at 5 0)
+		(at 3.5 0)
 		(size 2 2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")

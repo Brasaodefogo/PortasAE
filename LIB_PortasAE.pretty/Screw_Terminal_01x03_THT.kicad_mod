@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "Screw_Terminal_1.5**"
-		(at 5 -9 0)
+		(at 3.5 -9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f2937e84-1291-49a0-bbd1-99e174504e11")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Screw_Terminal_01x03_THT"
-		(at 5 -7.5 0)
+		(at 3.5 -7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4b08f09b-e891-46b5-b4b1-7f93e6dafb13")
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -2.5 -3.1)
-		(end 12.5 4.5)
+		(start -1.75 -3.4)
+		(end 8.75 3.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -66,7 +66,7 @@
 		(uuid "d7e92929-5399-4809-ab22-6422025a775b")
 	)
 	(fp_text user "Front"
-		(at 3 -3.5 0)
+		(at 1.5 -3.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "688b6a78-42f0-47d2-9779-c8094e233192")
@@ -79,7 +79,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5 -6 0)
+		(at 3.5 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7c208b75-e12a-4357-98dd-e19d72e314b7")
@@ -99,7 +99,7 @@
 		(uuid "3bb90b57-a782-4553-9c98-2f08c8f8fa3b")
 	)
 	(pad "2" thru_hole circle
-		(at 5 0)
+		(at 3.5 0)
 		(size 2 2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -107,7 +107,7 @@
 		(uuid "ef7e2ee7-1cbf-40f7-867f-7143ff9fa2e8")
 	)
 	(pad "3" thru_hole circle
-		(at 10 0)
+		(at 7 0)
 		(size 2 2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
