@@ -5001,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+		(property "Datasheet" "https://www.chiptend.com/wp-content/uploads/2025/02/Transistor-2N2222A-datasheet.pdf"
 			(at 132.08 176.53 0)
 			(effects
 				(font
