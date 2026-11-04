@@ -68,7 +68,7 @@
 	(fp_text user "Front"
 		(at 1.5 -3.5 0)
 		(unlocked yes)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "688b6a78-42f0-47d2-9779-c8094e233192")
 		(effects
 			(font

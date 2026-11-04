@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "7b523ae8-1e27-4fef-a309-ad6891c2cbf0")
 	)
 	(fp_text user "+"

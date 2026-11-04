@@ -5288,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Breve_TEZ-22x24"
+		(property "Footprint" "LIB_PortasAE:Transformer_THT"
 			(at 58.42 57.15 0)
 			(effects
 				(font
