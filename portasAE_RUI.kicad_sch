@@ -5,7 +5,7 @@
 	(uuid "28157ea9-868c-4c0c-8088-8cd647fc3533")
 	(paper "A4")
 	(title_block
-		(title "Fail-Secure Doors with Keyboard System ")
+		(title "Fail-Secure Keypad Door System (ESP32-C3 Wi-Fi)")
 		(company "N3E - Made by João Pires")
 	)
 	(lib_symbols
